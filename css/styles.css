@@ -20,7 +20,7 @@ header {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -45,12 +45,25 @@ header {
   color: #404bbf;
 }
 
+.header-contact {
+  font-style: normal;
+}
+
 .header-mail:hover,
 .header-tel:hover {
   color: #404bbf;
 }
 
-.header-tel,
+.header-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .header-mail {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -124,6 +137,7 @@ header {
 .team {
   background-color: #f4f4fd;
 }
+
 .team-title {
   padding-top: 120px;
   font-weight: 700;
@@ -185,7 +199,7 @@ header {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -211,7 +225,7 @@ header {
 /** -------------------- Portfolio --------------------*/
 
 .port-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
