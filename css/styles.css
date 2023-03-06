@@ -164,7 +164,7 @@ header {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
 }
 
 .team-post {
@@ -172,7 +172,7 @@ header {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-text-color);
 }
 
 .footer {
