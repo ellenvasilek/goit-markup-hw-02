@@ -1,7 +1,3 @@
-:root {
-  --main-title-color: #2e2f42;
-  --second-title-color: #434455;
-}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -27,7 +23,16 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
+  color: #2e2f42;
+}
+
+.header-link:hover {
+  color: #404bbf;
+}
+
+.header-mail:hover,
+.header-tel:hover {
+  color: #404bbf;
 }
 
 .header-tel,
@@ -42,7 +47,7 @@ header {
 }
 
 .hero {
-  background-color: var(--main-title-color);
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -68,12 +73,19 @@ header {
   border-radius: 4px;
 }
 
+.hero-btn:hover {
+  color: #ffffff;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
 .mission-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
+  color: #2e2f42;
 }
 
 .mission-text {
@@ -90,7 +102,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-title-color);
+  color: #2e2f42;
 }
 
 .team {
@@ -104,7 +116,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-title-color);
+  color: #2e2f42;
 }
 
 .team-item {
@@ -132,7 +144,7 @@ header {
 }
 
 .footer {
-  background-color: var(--main-title-color);
+  background-color: #2e2f42;
 }
 
 .header-logo-web {
@@ -162,7 +174,7 @@ header {
 }
 
 .footer {
-  background-color: var(--main-title-color);
+  background-color: #2e2f42;
 }
 
 .footer-item {
