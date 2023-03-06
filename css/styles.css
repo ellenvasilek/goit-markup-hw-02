@@ -1,3 +1,8 @@
+:root {
+  --main-text-color: #2e2f42;
+  --second-text-color: #434455;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -45,26 +50,23 @@ header {
   color: #404bbf;
 }
 
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-contact {
   font-style: normal;
 }
 
-.header-mail:hover,
-.header-tel:hover {
+.header-address:hover {
   color: #404bbf;
 }
 
-.header-tel {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.header-address:focus {
+  color: #404bbf;
 }
 
-.header-mail {
+.header-address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -146,7 +148,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-text-color);
 }
 
 .team-item {
@@ -254,12 +256,11 @@ header {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-text-color);
 }
 .port-example-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--second-text-color);
 }
