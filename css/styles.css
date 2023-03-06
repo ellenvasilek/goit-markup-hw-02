@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: #434455;
 }
 
 .link {
@@ -18,7 +19,21 @@ header {
   background-color: #ffffff;
 }
 
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .header-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -71,6 +86,7 @@ header {
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -147,17 +163,8 @@ header {
   background-color: #2e2f42;
 }
 
-.header-logo-web {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.header-logo-d {
+  color: #2e2f42;
 }
 
 .header-logo-studio-w {
@@ -177,6 +184,23 @@ header {
   background-color: #2e2f42;
 }
 
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo-studio-w {
+  color: #f4f4fd;
+}
+
 .footer-item {
   font-size: 16px;
   line-height: 1.5;
@@ -187,10 +211,20 @@ header {
 /** -------------------- Portfolio --------------------*/
 
 .port-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #f4f4fd;
+  background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .port-btn:hover {
@@ -201,13 +235,17 @@ header {
   border-radius: 4px;
 }
 
-.port-example-list {
-}
-.list {
-}
-.port-example-item {
-}
 .port-example-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .port-example-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
